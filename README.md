@@ -6,12 +6,6 @@ Indicium code challenge for Software Developer focusing on data projects
 # Flowchart
 ![image](img/fluxo_pipe_indicium.png)
 
-## Dashboard DataStudio - Plus =)
-Final query scheduled in Data Studio
-
-
-link: https://datastudio.google.com/reporting/96c3d5b2-cc13-41f5-8d7c-c9a784a6c232
-
 
 ## Chosen database 
 
@@ -56,6 +50,12 @@ pip install -r ./requirements.txt
 - If no parameter or a wrong parameter is passed, a help message will be printed:
 
 ![image](img/erro_parametros.png)
+
+## Dashboard DataStudio - Plus =)
+Final query scheduled in Data Studio
+
+
+link: https://datastudio.google.com/reporting/96c3d5b2-cc13-41f5-8d7c-c9a784a6c232
 
 ## Requirements
 
