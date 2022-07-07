@@ -43,14 +43,17 @@ pip install -r ./requirements.txt
 
         py main.py -enl
 
-- If no parameter or a wrong parameter is passed, a help message will be printed
+- If no parameter or a wrong parameter is passed, a help message will be printed:
+
+![image](img/erro_parametros.png)
 
 ## Requirements
 
 - All tasks should be idempotent, you should be able the whole pipeline for a day and the result should be always the same
     - **R:** Se o pipeline for executado com os mesmos parâmetros de data o dados serão truncados e o resultado será  o mesmo.
 - Step 2 depends on both tasks of step 1, so you should not be able to run step 2 for a day if the tasks from step 1 did not succeed
-    - **R:** Se o pipeline for executado com o parâmetro 2 = `-l` para uma data que ainda não foi extraída uma mensagem de erro será printada
+    - **R:** Se o pipeline for executado com o parâmetro 2 = `-l` para uma data que ainda não foi extraída uma mensagem de erro será printada:
+    
     ![image](img/erro_para_data_nao_extraida.png)
 - You should extract all the tables from the source database, it does not matter that you will not use most of them for the final step.
     - **R:** através de um laço for e as funções do script `utils_etl.extract.py` pode-se conectar ao banco pgSQL e efetuar todas as consultas.
