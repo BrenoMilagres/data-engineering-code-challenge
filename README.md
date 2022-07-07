@@ -8,7 +8,7 @@ Indicium code challenge for Software Developer focusing on data projects
 
 ## Dashboard DataStudio - Plus =)
 Final query scheduled in Data Studio
-Dash with link:
+
 
 link: https://datastudio.google.com/reporting/96c3d5b2-cc13-41f5-8d7c-c9a784a6c232
 
